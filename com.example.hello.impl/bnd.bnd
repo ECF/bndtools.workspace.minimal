@@ -1,16 +1,10 @@
-#
-# com.example.hello.impl PROVIDER BUNDLE
-#
-
 -buildpath: \
-	osgi.annotation,\
+	osgi.annotation;version='7.0',\
+	com.example.hello.api;version=latest,\
 	org.osgi.service.component.annotations,\
-	com.example.hello.api,\
 	org.osgi.service.component
-	
 
--testpath: \
-	biz.aQute.wrapper.junit, \
-	biz.aQute.wrapper.hamcrest, \
-	org.assertj.core
+javac.source: 1.8
+javac.target: 1.8
 
+Bundle-Version: 1.2.0.${tstamp}

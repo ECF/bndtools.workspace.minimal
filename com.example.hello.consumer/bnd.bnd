@@ -3,14 +3,12 @@
 #
 
 -buildpath: \
-	osgi.annotation,\
-	org.osgi.service.component.annotations,\
+	osgi.annotation;version='7.0',\
+	org.apache.felix.gogo.runtime;version='1.1.4',\
 	com.example.hello.api,\
-	org.apache.felix.gogo.runtime
-	
+	org.osgi.service.component.annotations
 
--testpath: \
-	biz.aQute.wrapper.junit, \
-	biz.aQute.wrapper.hamcrest, \
-	org.assertj.core
+javac.source: 1.8
+javac.target: 1.8
 
+Bundle-Version: 1.1.0.${tstamp}
