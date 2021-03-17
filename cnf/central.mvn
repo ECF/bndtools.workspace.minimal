@@ -79,4 +79,3 @@ org.osgi:osgi.core:8.0.0
 org.slf4j:slf4j-api:1.7.30
 org.slf4j:slf4j-simple:1.7.30
 org.eclipse.persistence:javax.persistence:2.2.1
-
