@@ -1,6 +1,6 @@
 -buildpath: \
 	osgi.annotation;version='7.0',\
-	com.example.hello.api;version=latest,\
+	com.example.helloasync.api;version=latest,\
 	org.osgi.service.component.annotations,\
 	org.osgi.service.component
 

@@ -1,10 +1,12 @@
 -buildpath: \
 	osgi.annotation;version='7.0',\
 	org.apache.felix.gogo.runtime;version='1.1.4',\
-	com.example.hello.api,\
-	org.osgi.service.component.annotations
+	org.osgi.service.component.annotations,\
+	com.example.hello.api
 
-javac.source: 1.8
-javac.target: 1.8
+Bundle-Version: 1.0.0.${tstamp}
 
-Bundle-Version: 1.1.0.${tstamp}
+javac.source=1.8
+javac.target=1.8
+javac.compliance=1.8
+

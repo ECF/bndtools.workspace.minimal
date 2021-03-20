@@ -22,6 +22,12 @@ bin                                   =         ${target-dir}${mvn-driver-modifi
         index=${.}/central.mvn; \
         readOnly=true; \
         name="Central", \
+
+-plugin.7.Templates: \
+	aQute.bnd.deployer.repository.LocalIndexedRepo; \
+		name = Templates; \
+		pretty = true; \
+		local = ${build}/templates
         
 -runblacklist.enroute: \
     osgi.identity;filter:='(osgi.identity=osgi.enroute.base.api)', \
